@@ -10,21 +10,6 @@ export const Footer = () => {
   return (
     <div>
 
-      <div className="footer-socials-section">
-
-        <div className="col-social-text">
-          <p className="social-text">Sledujte nás na:</p>
-        </div>
-
-        <div className="col-social-icons">
-
-          <BsFacebook className="social-icon"></BsFacebook>
-          <BsInstagram className="social-icon"></BsInstagram>
-          <BsTwitter className="social-icon"></BsTwitter>
-
-        </div>
-
-      </div>
 
       <div className="footer-section">
 
@@ -37,30 +22,49 @@ export const Footer = () => {
             <img className="footer-logo" src={Logo}></img>
           </div>
 
-          <div className="col-items-1">
-            <a className="footer-item-n">item</a>
-            <a className="footer-item">item</a>
-            <a className="footer-item">item</a>
-            <a className="footer-item">item</a>
-            <a className="footer-item">item</a>
+          <div className="cols-footer-wrapper">
+            <div className="col-items-1">
+              <p className="item-title-1">nadpis</p>
+              <a className="footer-item-n">item</a>
+              <a className="footer-item">item</a>
+              <a className="footer-item">item</a>
+              <a className="footer-item">item</a>
 
 
-          </div>
+
+            </div>
 
 
-          <div className="col-items-2">
-            <a className="footer-item-n">item</a>
-            <a className="footer-item">item</a>
-            <a className="footer-item">item</a>
-            <a className="footer-item">item</a>
-            <a className="footer-item">item</a>
+            <div className="col-items-2">
+              <p className="item-title-2">nadpis</p>
+              <a className="footer-item-n">item</a>
+              <a className="footer-item">item</a>
+              <a className="footer-item">item</a>
+              <a className="footer-item">item</a>
+            </div>
 
 
           </div>
 
         </div>
 
-        <div className="footer-copyright"><p className="footer-text">Milan Mizera &copy; {new Date().getFullYear()}. Všechna práva vyhrazena.</p> </div>
+        <div className="copyright-section">
+
+          <div className="col-footer-copyright">
+            <p className="footer-text">Milan Mizera &copy; {new Date().getFullYear()}. Všechna práva vyhrazena.</p>
+          </div>
+
+
+          <div className="col-social-icons">
+            <p className="social-text">Sledujte nás na:</p>
+            <BsFacebook className="social-icon"></BsFacebook>
+            <BsInstagram className="social-icon"></BsInstagram>
+            <BsTwitter className="social-icon"></BsTwitter>
+          </div>
+
+
+        </div>
+
 
 
       </div>

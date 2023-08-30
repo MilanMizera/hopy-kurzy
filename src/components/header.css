@@ -42,6 +42,15 @@ a {
   ;
 }
 
+.login-btn {
+
+background-color: yellow;
+padding: 10px 20px;
+border-radius: 10px;
+color: black;
+
+}
+
 .nav__menu {
   display: flex;
   align-items: center;
@@ -96,7 +105,7 @@ a {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 
   .nav__toggler {
     display: block;
@@ -130,6 +139,10 @@ a {
   }
 
 }
+
+
+
+
 
 /* Active Class */
 .nav__active {

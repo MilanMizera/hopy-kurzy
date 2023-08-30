@@ -33,13 +33,13 @@ const Header = () => {
 
         <li className="nav__item">
           <a to="with-i-work-scoll" spy={true} smooth={true} offset={50} duration={500} className="nav__link">
-            Dovednosti
+            Seznam kurzů
           </a>
         </li>
 
         <li className="nav__item">
           <a to="first-project-scroll" spy={true} smooth={true} offset={50} duration={500} className="nav__link">
-            První projekt
+            Předplatné
           </a>
         </li>
 
@@ -48,6 +48,7 @@ const Header = () => {
             Kontakt
           </a>
         </li>
+        <a className="login-btn">Přihlásit se</a>
       </ul>
 
       <div onClick={navToggle} className={icon}>

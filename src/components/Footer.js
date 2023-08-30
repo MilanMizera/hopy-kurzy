@@ -1,8 +1,9 @@
 import "./footer.css"
-import Logo from "../images/Hopy-kurzy.png"
+import Logo from "../images/logo.png"
 
 /* icons*/
-import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTwitter, BsHeartHalf } from "react-icons/bs";
+import { ITiHeartHalfOutline } from "react-icons/ti";
 
 export const Footer = () => {
 
@@ -60,6 +61,10 @@ export const Footer = () => {
             <BsFacebook className="social-icon"></BsFacebook>
             <BsInstagram className="social-icon"></BsInstagram>
             <BsTwitter className="social-icon"></BsTwitter>
+            <p className="love-text">Vytvořeno s<BsHeartHalf className="hearth-icon"></BsHeartHalf>všem návštěvníkům hopykurzu</p>
+        
+          </div>
+        
           </div>
 
 
@@ -69,7 +74,7 @@ export const Footer = () => {
 
       </div>
 
-    </div>
+   
   )
 
 

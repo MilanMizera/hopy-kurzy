@@ -165,6 +165,7 @@ popis 15px*/
     padding-top: 20px;
     padding-bottom: 20px;
    margin-right: 50px;
+   box-shadow: 0px 0px 138px -52px rgba(0,0,0,0.75);
   
 }
 
@@ -201,4 +202,50 @@ popis 15px*/
 
 }
 
+/*clip-path*/
+
+.clip-path-main {
+    clip-path: polygon(100% 10%, 100% 91%, 100% 100%, 0% 100%, 0 12%, 53% 29%);
+    height: 400px;
+    background: rgb(0, 33, 65);
+  position: relative;
+ 
+
+
+
+}
+
+
+/*Lasts courses section*/
+
+#col-lasts-courses {
+
+
+width: 20%;
+
+
+}
+
+.lasts-courses-section {
+
+position: relative;
+bottom: 200px;
+
+}
+
+.lasts-courses-title {
+
+
+font-size: 35px;
+color: aliceblue;
+margin-bottom: 30px;
+
+}
+
+#lasts-courses-card {
+
+padding-bottom: 50px;
+
+
+}
 

@@ -14,7 +14,13 @@ import {
   MDBIcon,
   MDBRow,
 } from "mdb-react-ui-kit";
-
+//lasts courses boostrap component
+import {
+  MDBCardImage,
+  MDBCardTitle,
+  MDBCardText,
+  MDBCardFooter,
+} from 'mdb-react-ui-kit';
 
 export const Home = () => {
 
@@ -140,6 +146,84 @@ export const Home = () => {
         </MDBRow>
       </MDBContainer>
     </div>
+
+
+<div className="clip-path-main">
+</div>
+
+
+<div className="lasts-courses-section">
+<h6 className="lasts-courses-title"> Naposledy přidané kurzy</h6>
+<MDBRow className='row-cols-1 row-cols-md-3 g-4 justify-content-center' id="">
+      <MDBCol id="col-lasts-courses">
+        <MDBCard id="lasts-courses-card">
+          <MDBCardImage
+            src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardText>
+              This is a longer card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.
+            </MDBCardText>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+      <MDBCol id="col-lasts-courses">
+        <MDBCard id="lasts-courses-card">
+          <MDBCardImage
+            src='https://mdbootstrap.com/img/new/standard/city/042.webp'
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardText>
+              This is a longer card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.
+            </MDBCardText>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+      <MDBCol id="col-lasts-courses">
+        <MDBCard id="lasts-courses-card">
+          <MDBCardImage
+            src='https://mdbootstrap.com/img/new/standard/city/043.webp'
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardText>
+              This is a longer card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.
+            </MDBCardText>
+          </MDBCardBody>
+        </MDBCard >
+      </MDBCol>
+      <MDBCol id="col-lasts-courses">
+        <MDBCard id="lasts-courses-card">
+          <MDBCardImage
+            src='https://mdbootstrap.com/img/new/standard/city/044.webp'
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle>Card title</MDBCardTitle>
+            <MDBCardText>
+              This is a longer card with supporting text below as a natural lead-in to additional content.
+              This content is a little bit longer.
+            </MDBCardText>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+    </MDBRow>
+</div>
+
+
+
   </div>
 
   )

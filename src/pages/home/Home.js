@@ -187,7 +187,7 @@ export const Home = () => {
         </MDBCol>
         <MDBCol id="col-lasts-courses">
           <MDBCard id="lasts-courses-card">
-            <MDBCardImage  id="lasts-courses-img"
+            <MDBCardImage id="lasts-courses-img"
               src={googleAds}
               alt='...'
               position='top'
@@ -209,7 +209,7 @@ export const Home = () => {
         </MDBCol>
         <MDBCol id="col-lasts-courses">
           <MDBCard id="lasts-courses-card">
-            <MDBCardImage  id="lasts-courses-img"
+            <MDBCardImage id="lasts-courses-img"
               src={photoshop}
               alt='...'
               position='top'
@@ -232,7 +232,7 @@ export const Home = () => {
         <MDBCol id="col-lasts-courses">
           <MDBCard id="lasts-courses-card">
 
-            <MDBCardImage  id="lasts-courses-img"
+            <MDBCardImage id="lasts-courses-img"
               src={jsCourse}
               alt='...'
               position='top'

@@ -129,9 +129,6 @@ popis 15px*/
 }
 
 /*Testimonials*/
-
-
-
 #testimonials-title {
 
     font-size: 35px;
@@ -144,12 +141,9 @@ popis 15px*/
 
 }
 
-
-
 #note-icon {
 
     color: rgb(207, 207, 50);
-
 
 }
 
@@ -160,13 +154,12 @@ popis 15px*/
 
 #testimonials-card {
 
-
     background-color: rgb(0, 33, 65) !important;
     padding-top: 20px;
     padding-bottom: 20px;
-   margin-right: 50px;
-   box-shadow: 0px 0px 138px -52px rgba(0,0,0,0.75);
-  
+    margin-right: 50px;
+    box-shadow: 0px 0px 138px -52px rgba(0, 0, 0, 0.75);
+
 }
 
 #testimonials-img {
@@ -177,10 +170,8 @@ popis 15px*/
 
 #testimonials-persone-name {
 
-
     color: aliceblue;
     font-size: 20px;
-
 
 }
 
@@ -189,120 +180,107 @@ popis 15px*/
     color: rgb(199, 199, 199);
     font-size: 15px;
 
-
 }
 
 #testimonials-wrapper {
 
-   
     padding: 0px !important;
-
-
-
 
 }
 
 /*clip-path*/
-
 .clip-path-main {
     clip-path: polygon(100% 10%, 100% 91%, 100% 100%, 0% 100%, 0 12%, 53% 29%);
     height: 400px;
     background: rgb(0, 33, 65);
-  position: relative;
- 
-
-
+    position: relative;
 
 }
 
 
 /*Lasts courses section*/
-
 #col-lasts-courses {
 
-width: 20%;
-margin-right: 10px;
-cursor: pointer;
-
+    width: 20%;
+    margin-right: 10px;
+    cursor: pointer;
 
 }
 
 #col-lasts-courses:hover {
 
-border: 1px solid yellow;
-padding-right:0px ;
-padding-left: 0px;
-
+    border: 1px solid yellow;
+    padding-right: 0px;
+    padding-left: 0px;
 
 }
 
 .lasts-courses-section {
 
-position: relative;
-bottom: 200px;
+    position: relative;
+    bottom: 200px;
 
 }
 
 .lasts-courses-title {
 
 
-font-size: 35px;
-color: aliceblue;
-margin-bottom: 30px;
+    font-size: 35px;
+    color: aliceblue;
+    margin-bottom: 30px;
 
 }
 
-
 .courses-info-wrapper {
 
-display: flex;
-flex-direction: column;
-align-items: start;
-justify-content: center;
-height: 170px;
-margin-left: 5px;
-border-top: 1px solid rgb(214, 214, 214);
-padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 170px;
+    margin-left: 5px;
+    border-top: 1px solid rgb(214, 214, 214);
+    padding-top: 20px;
 
 }
 
 .courses-info-icon {
 
-font-size: 20px;
-color: rgb(141, 141, 14);
-margin-right: 5px;
+    font-size: 20px;
+    color: rgb(141, 141, 14);
+    margin-right: 5px;
 
 }
 
 .courses-info-paragraf {
 
-font-size: 15px;
+    font-size: 15px;
 
 }
 
 .lasts-courses-heading {
 
-font-size: 20px;
-margin-top: 20px;
+    font-size: 20px;
+    margin-top: 20px;
 
 }
 
 .courses-info-bold {
 
-font-weight: bolder;
+    font-weight: bolder;
 
 }
 
 .card-text {
 
-margin-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 
 #lasts-courses-img {
 
-height: 270px;
-margin-top: 20px;
+    height: 270px;
+    margin-top: 20px;
 
 
 }

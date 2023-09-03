@@ -1,4 +1,5 @@
-
+/**tlačítko na scroll to top */
+import ScrollToTop from "react-scroll-to-top";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home></Home>} />
         <Route path="*" element={<errorPage />} />
       </Routes>
+      <ScrollToTop></ScrollToTop>
       <Footer></Footer>
     </BrowserRouter>
   </div>

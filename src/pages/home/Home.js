@@ -1,10 +1,18 @@
 import "./home.css"
 //pictures
 import mainImg from "../../images/home/mainImg.png"
+import jsCourse from "../../images/home/js-course.png"
+import phpCourse from "../../images/home/php-course.jpg"
+import googleAds from "../../images/home/google-ads-course.png"
+import photoshop from "../../images/home/photoshop-course.jpg"
 //icons
 import { BsEmojiSmile } from "react-icons/bs";
 import { IoManOutline } from "react-icons/io5";
-import { MdTaskAlt } from "react-icons/md";
+import { MdTaskAlt, MdOutlineDriveFileRenameOutline } from "react-icons/md";
+import { TbCategory2 } from "react-icons/tb";
+import { MdOutlineAccessTime } from "react-icons/md";
+
+import { ImFileText2 } from "react-icons/im";
 //boostrap mdi testimonials component
 import {
   MDBCard,
@@ -148,79 +156,104 @@ export const Home = () => {
     </div>
 
 
-<div className="clip-path-main">
-</div>
+    <div className="clip-path-main">
+    </div>
 
 
-<div className="lasts-courses-section">
-<h6 className="lasts-courses-title"> Naposledy přidané kurzy</h6>
-<MDBRow className='row-cols-1 row-cols-md-3 g-4 justify-content-center' id="">
-      <MDBCol id="col-lasts-courses">
-        <MDBCard id="lasts-courses-card">
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-      <MDBCol id="col-lasts-courses">
-        <MDBCard id="lasts-courses-card">
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/042.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-      <MDBCol id="col-lasts-courses">
-        <MDBCard id="lasts-courses-card">
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/043.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard >
-      </MDBCol>
-      <MDBCol id="col-lasts-courses">
-        <MDBCard id="lasts-courses-card">
-          <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/044.webp'
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Card title</MDBCardTitle>
-            <MDBCardText>
-              This is a longer card with supporting text below as a natural lead-in to additional content.
-              This content is a little bit longer.
-            </MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
-    </MDBRow>
-</div>
+    <div className="lasts-courses-section">
+      <h6 className="lasts-courses-title"> Naposledy přidané kurzy</h6>
+      <MDBRow className='row-cols-1 row-cols-md-3 g-4 justify-content-center' id="">
+        <MDBCol id="col-lasts-courses">
+          <MDBCard id="lasts-courses-card">
+            <MDBCardImage id="lasts-courses-img"
+              src={phpCourse}
+              alt='...'
+              position='top'
+            />
+            <MDBCardBody>
+              <MDBCardTitle className="lasts-courses-heading">Nette framework</MDBCardTitle>
+              <MDBCardText>
+                This is a longer card with supporting text below as a natural lead-in to additional content.
+                This content is a little bit longer.
+              </MDBCardText>
+              <div className="courses-info-wrapper">
+                <p className="courses-info-paragraf"> <MdOutlineDriveFileRenameOutline className="courses-info-icon"></MdOutlineDriveFileRenameOutline><b className="courses-info-bold">jméno lektora:</b> Filip</p>
+                <p className="courses-info-paragraf"> <TbCategory2 className="courses-info-icon"></TbCategory2><b className="courses-info-bold">Kategorie:</b> programování/php</p>
+                <p className="courses-info-paragraf">  <MdOutlineAccessTime className="courses-info-icon"></MdOutlineAccessTime><b className="courses-info-bold">Délka kurzu:</b> 10 hodin</p>
+                <p className="courses-info-paragraf"> <ImFileText2 className="courses-info-icon"></ImFileText2> <b className="courses-info-bold">Úkoly k vypracování:</b> ano</p>
+              </div>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol id="col-lasts-courses">
+          <MDBCard id="lasts-courses-card">
+            <MDBCardImage  id="lasts-courses-img"
+              src={googleAds}
+              alt='...'
+              position='top'
+            />
+            <MDBCardBody>
+              <MDBCardTitle className="lasts-courses-heading">Google ads kampaně</MDBCardTitle>
+              <MDBCardText>
+                This is a longer card with supporting text below as a natural lead-in to additional content.
+                This content is a little bit longer.
+              </MDBCardText>
+              <div className="courses-info-wrapper">
+                <p className="courses-info-paragraf"> <MdOutlineDriveFileRenameOutline className="courses-info-icon"></MdOutlineDriveFileRenameOutline><b className="courses-info-bold">jméno lektora:</b> Andrea</p>
+                <p className="courses-info-paragraf"> <TbCategory2 className="courses-info-icon"></TbCategory2><b className="courses-info-bold">Kategorie:</b> Marketing</p>
+                <p className="courses-info-paragraf">  <MdOutlineAccessTime className="courses-info-icon"></MdOutlineAccessTime><b className="courses-info-bold">Délka kurzu:</b> 6 hodin</p>
+                <p className="courses-info-paragraf"> <ImFileText2 className="courses-info-icon"></ImFileText2> <b className="courses-info-bold">Úkoly k vypracování:</b> ano</p>
+              </div>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+        <MDBCol id="col-lasts-courses">
+          <MDBCard id="lasts-courses-card">
+            <MDBCardImage  id="lasts-courses-img"
+              src={photoshop}
+              alt='...'
+              position='top'
+            />
+            <MDBCardBody>
+              <MDBCardTitle className="lasts-courses-heading">Profesionální práce v photoshopu</MDBCardTitle>
+              <MDBCardText>
+                This is a longer card with supporting text below as a natural lead-in to additional content.
+                This content is a little bit longer.
+              </MDBCardText>
+              <div className="courses-info-wrapper">
+                <p className="courses-info-paragraf"> <MdOutlineDriveFileRenameOutline className="courses-info-icon"></MdOutlineDriveFileRenameOutline><b className="courses-info-bold">jméno lektora:</b> Simona</p>
+                <p className="courses-info-paragraf"> <TbCategory2 className="courses-info-icon"></TbCategory2><b className="courses-info-bold">Kategorie:</b> Photoshop</p>
+                <p className="courses-info-paragraf">  <MdOutlineAccessTime className="courses-info-icon"></MdOutlineAccessTime><b className="courses-info-bold">Délka kurzu:</b> 5 hodin</p>
+                <p className="courses-info-paragraf"> <ImFileText2 className="courses-info-icon"></ImFileText2> <b className="courses-info-bold">Úkoly k vypracování:</b> ano</p>
+              </div>
+            </MDBCardBody>
+          </MDBCard >
+        </MDBCol>
+        <MDBCol id="col-lasts-courses">
+          <MDBCard id="lasts-courses-card">
+
+            <MDBCardImage  id="lasts-courses-img"
+              src={jsCourse}
+              alt='...'
+              position='top'
+            />
+            <MDBCardBody>
+              <MDBCardTitle className="lasts-courses-heading">Základy v javascriptu</MDBCardTitle>
+              <MDBCardText>
+                This is a longer card with supporting text below as a natural lead-in to additional content.
+                This content is a little bit longer.
+              </MDBCardText>
+              <div className="courses-info-wrapper">
+                <p className="courses-info-paragraf"> <MdOutlineDriveFileRenameOutline className="courses-info-icon"></MdOutlineDriveFileRenameOutline><b className="courses-info-bold">jméno lektora:</b> Roman</p>
+                <p className="courses-info-paragraf"> <TbCategory2 className="courses-info-icon"></TbCategory2><b className="courses-info-bold">Kategorie:</b> programování/javascript</p>
+                <p className="courses-info-paragraf">  <MdOutlineAccessTime className="courses-info-icon"></MdOutlineAccessTime><b className="courses-info-bold">Délka kurzu:</b> 12 hodin</p>
+                <p className="courses-info-paragraf"> <ImFileText2 className="courses-info-icon"></ImFileText2> <b className="courses-info-bold">Úkoly k vypracování:</b> ano</p>
+              </div>
+            </MDBCardBody>
+          </MDBCard>
+        </MDBCol>
+      </MDBRow>
+    </div>
 
 
 

@@ -11,7 +11,6 @@ import { IoManOutline } from "react-icons/io5";
 import { MdTaskAlt, MdOutlineDriveFileRenameOutline } from "react-icons/md";
 import { TbCategory2 } from "react-icons/tb";
 import { MdOutlineAccessTime } from "react-icons/md";
-
 import { ImFileText2 } from "react-icons/im";
 //boostrap mdi testimonials component
 import {
@@ -29,6 +28,8 @@ import {
   MDBCardText,
   MDBCardFooter,
 } from 'mdb-react-ui-kit';
+
+
 
 export const Home = () => {
 

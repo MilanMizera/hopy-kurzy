@@ -1,5 +1,6 @@
 import "./header.css"
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -21,7 +22,7 @@ const Header = () => {
     <nav className="nav">
 
       <a className="nav__brand">
-       Hopy-kurzy
+        Hopy-kurzy
       </a>
 
       <ul className={active}>
@@ -48,7 +49,11 @@ const Header = () => {
             Kontakt
           </a>
         </li>
-        <a className="login-btn">Přihlásit se</a>
+
+        <div className="login-btn-background">
+          <Link to="/prihlaseni" className="login-btn">Přihlásit se</Link>
+        </div>
+
       </ul>
 
       <div onClick={navToggle} className={icon}>

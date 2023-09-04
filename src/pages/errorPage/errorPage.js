@@ -1,6 +1,6 @@
 import "./errorPage.css"
 
-export const errorPage = () => {
+const errorPage = () => {
 
   return (
 

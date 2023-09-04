@@ -62,19 +62,19 @@ export const Footer = () => {
             <BsInstagram className="social-icon"></BsInstagram>
             <BsTwitter className="social-icon"></BsTwitter>
             <p className="love-text">Vytvořeno s<BsHeartHalf className="hearth-icon"></BsHeartHalf>všem návštěvníkům hopykurzu</p>
-        
-          </div>
-        
-          </div>
 
+          </div>
 
         </div>
 
 
-
       </div>
 
-   
+
+
+    </div>
+
+
   )
 
 

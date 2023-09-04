@@ -61,7 +61,7 @@
 
 }
 
-.footer-item  {
+.footer-item {
 
     margin-top: 20px;
     color: rgb(175, 175, 175);
@@ -69,27 +69,29 @@
 
 .footer-item-n {
 
-color: rgb(175, 175, 175);
+    color: rgb(175, 175, 175);
 
 
 }
 
 
 
-.footer-item:hover, .footer-item-n:hover {
+.footer-item:hover,
+.footer-item-n:hover {
 
-color: white;
-transition: 3s initial;
+    color: white;
+    transition: 3s initial;
 
 
 }
 
-.item-title-1, .item-title-2 {
+.item-title-1,
+.item-title-2 {
 
 
-color: aliceblue;
-margin-bottom: 10px;
-text-decoration: underline;
+    color: aliceblue;
+    margin-bottom: 10px;
+    text-decoration: underline;
 
 
 }
@@ -169,7 +171,7 @@ text-decoration: underline;
 
 .social-wrapper {
 
-width: 50%;
+    width: 50%;
 
 }
 
@@ -186,10 +188,10 @@ width: 50%;
 
 .love-text {
 
-display: flex;
-justify-content: end;
-color: aliceblue;
-width: 500px;
+    display: flex;
+    justify-content: end;
+    color: aliceblue;
+    width: 500px;
 
 
 
@@ -198,6 +200,5 @@ width: 500px;
 
 .hearth-icon {
 
-margin: 0px 5px
-
+    margin: 0px 5px
 }

@@ -44,11 +44,21 @@ a {
 
 .login-btn {
 
-background-color: yellow;
-padding: 10px 20px;
-border-radius: 10px;
-color: black;
+  color: black;
 
+}
+
+.login-btn-background {
+
+  padding: 10px 20px;
+  background-color: yellow;
+  border-radius: 10px;
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+}
+
+.login-btn-background:hover {
+  animation: none;
 }
 
 .nav__menu {
@@ -103,6 +113,24 @@ color: black;
   transform-origin: 100% 50%;
 
 }
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(255, 212, 119, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(235, 235, 255, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(219, 219, 219, 0);
+  }
+}
+
 
 
 @media screen and (max-width: 1000px) {

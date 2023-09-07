@@ -1,36 +1,46 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { UserAuth } from "../../../data/AuthContext";
 import "./login.css"
+//react
+import { useEffect, useState } from "react"
+import { Link } from "react-router-dom";
+//databáze
+import { auth } from "../../../data/firebase"
+import { signInWithEmailAndPassword, signInWithPopup, FacebookAuthProvider } from "firebase/auth"
+
 //ikonky
 import { FcGoogle } from "react-icons/fc";
 import { BsFacebook } from "react-icons/bs";
 
 
-const Signin = () => {
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [error, setError] = useState('');
-    const navigate = useNavigate();
-    const { signIn } = UserAuth();
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setError('')
-        try {
-            await signIn(email, password)
-            navigate('/account')
-        } catch (e) {
-            setError(e.message)
-            console.log(e.message)
-        }
-    };
+
+export const Login = () => {
+
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+
+
+    const signIn = (e) => {
+
+
+        e.preventDefault()
+        signInWithEmailAndPassword(auth, email, password)
+            .then((userCredential) => {
+                console.log(userCredential)
+            }).catch((error) => {
+
+                console.log(error)
+
+            })
+    }
+
+
 
     return (
+
         <div className="sign-in-section">
 
             <div className="sign-in-form-wrapper">
-                <form className="sign-in-form" onSubmit={handleSubmit}>
+                <form className="sign-in-form" onSubmit={signIn}>
                     <h1 className="sign-in-title">Přihlášení</h1>
                     <input className="sign-in-input" onChange={(e) => setEmail(e.target.value)} type="email" placeholder="E-mail" value={email}></input>
                     <input className="sign-in-input" onChange={(e) => setPassword(e.target.value)} type="password" placeholder="Heslo" value={password}></input>
@@ -50,7 +60,7 @@ const Signin = () => {
 
 
         </div>
-    );
-};
+    )
+}
 
-export default Signin;
+export default Login

@@ -2,21 +2,26 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { AuthContextProvider } from '../src/data/AuthContext';
 import ProtectedRoute from '../src/components/ProtectedRoute';
+import ShowHeader from './data/showHeader';
+
 /**tlačítko na scroll to top */
 import ScrollToTop from "react-scroll-to-top";
-//Pages
+// Public pages
 import Signin from './pages/Auth/login/Login';
 import Signup from './pages/Auth/register/Register';
-import Account from "./pages/privatePages/Account"
 import Home from "../src/pages/home/Home"
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+//Private pages
+import PrivateHeader from './components/PrivateHeader';
+import Account from "./pages/privatePages/Account"
 
 
 function App() {
   return (
     <div>
-      <Header></Header>
+
+      <ShowHeader><Header></Header></ShowHeader>
       <AuthContextProvider>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -26,12 +31,14 @@ function App() {
             path='/account'
             element={
               <ProtectedRoute>
+                <PrivateHeader/>
                 <Account />
               </ProtectedRoute>
             }
           />
         </Routes>
       </AuthContextProvider>
+      <ScrollToTop></ScrollToTop>
       <Footer></Footer>
     </div>
   );

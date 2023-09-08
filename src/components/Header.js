@@ -27,25 +27,25 @@ const Header = () => {
 
       <ul className={active}>
         <li className="nav__item">
-          <a to="welcome-scoll" spy={true} smooth={true} offset={50} duration={500} className="nav__link">
+          <a to="welcome-scoll"  className="nav__link">
             Úvod
           </a>
         </li>
 
         <li className="nav__item">
-          <a to="with-i-work-scoll" spy={true} smooth={true} offset={50} duration={500} className="nav__link">
+          <a to="with-i-work-scoll"  className="nav__link">
             Seznam kurzů
           </a>
         </li>
 
         <li className="nav__item">
-          <a to="first-project-scroll" spy={true} smooth={true} offset={50} duration={500} className="nav__link">
+          <a to="first-project-scroll" className="nav__link">
             Předplatné
           </a>
         </li>
 
         <li className="nav__item">
-          <a to="form-scroll" spy={true} smooth={true} offset={50} duration={500} className="nav__link">
+          <a to="form-scroll"  className="nav__link">
             Kontakt
           </a>
         </li>

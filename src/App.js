@@ -13,7 +13,7 @@ import Home from "../src/pages/home/Home"
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 //Private pages
-import PrivateHeader from './components/PrivateHeader';
+import PrivateHeader from './components/private components/privateHeader/PrivateHeader';
 import Account from "./pages/privatePages/Account"
 
 
@@ -31,7 +31,7 @@ function App() {
             path='/account'
             element={
               <ProtectedRoute>
-                <PrivateHeader/>
+                <PrivateHeader />
                 <Account />
               </ProtectedRoute>
             }

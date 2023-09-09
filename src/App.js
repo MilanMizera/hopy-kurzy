@@ -3,7 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import { AuthContextProvider } from '../src/data/AuthContext';
 import ProtectedRoute from '../src/components/ProtectedRoute';
 import ShowHeader from './data/showHeader';
-
+//**Zprovoznění klasického bootstrapu css */
+import 'bootstrap/dist/css/bootstrap.min.css';
 /**tlačítko na scroll to top */
 import ScrollToTop from "react-scroll-to-top";
 // Public pages
@@ -13,7 +14,7 @@ import Home from "../src/pages/home/Home"
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 //Private pages
-import PrivateHeader from './components/private components/privateHeader/PrivateHeader';
+import PrivateHeader from"../src/components/private/privateHeader/PrivateHeader"
 import Account from "./pages/privatePages/Account"
 
 

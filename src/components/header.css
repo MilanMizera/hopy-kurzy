@@ -42,11 +42,6 @@ a {
   ;
 }
 
-.login-btn {
-
-  color: black;
-
-}
 
 .login-btn-background {
 
@@ -55,6 +50,7 @@ a {
   border-radius: 10px;
   cursor: pointer;
   animation: pulse 1.5s infinite;
+  color: black;
 }
 
 .login-btn-background:hover {

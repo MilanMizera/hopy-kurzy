@@ -50,9 +50,9 @@ const Header = () => {
           </a>
         </li>
 
-        <div className="login-btn-background">
-          <Link to="/prihlaseni" className="login-btn">Přihlásit se</Link>
-        </div>
+       
+          <Link className="login-btn-background" to="/prihlaseni">Přihlásit se</Link>
+        
 
       </ul>
 

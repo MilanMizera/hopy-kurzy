@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
-function PrivateHeader({ name, ...props }) {
+function PrivateOffCanvas({ name, ...props }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -14,7 +14,7 @@ function PrivateHeader({ name, ...props }) {
   return (
     <div className='section-private-header'>
       <Button variant="primary" onClick={handleShow} className="me-2">
-        Menu
+        Nastavení účtu
       </Button>
       <Offcanvas placement='end' show={show} onHide={handleClose} {...props}>
         <Offcanvas.Header closeButton>
@@ -31,4 +31,4 @@ function PrivateHeader({ name, ...props }) {
 
 
 
-export default PrivateHeader
+export default PrivateOffCanvas

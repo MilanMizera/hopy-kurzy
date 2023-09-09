@@ -1,4 +1,5 @@
 import "./home.css"
+import { Link } from "react-router-dom"
 //pictures
 import mainImg from "../../images/home/mainImg.png"
 import jsCourse from "../../images/home/js-course.png"

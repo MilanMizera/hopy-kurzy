@@ -1,0 +1,27 @@
+.row-auth-details {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 30%;
+
+}
+
+.private-auth-details-paragraf {
+
+
+margin-bottom: 0px;
+margin-right: 10px;
+color: white;
+font-size: 12px;
+
+}
+
+.private-auth-details-button {
+
+
+border: 1px solid yellow;
+color: black;
+padding: 5px 20px;
+
+
+}

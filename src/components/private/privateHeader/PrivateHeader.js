@@ -1,5 +1,5 @@
 import "./privateHeader.css"
-import PrivateOffCanvas from "../../private/privateOffCanvas/PrivateOffCanvas"
+import PrivateOffCanvas from "../privateOffCanvas/PrivateAccSettings"
 import PrivateAuthDetails from "../privateAuthDetails/PrivateAuthDetails"
 //bootstrap
 import Button from 'react-bootstrap/Button';

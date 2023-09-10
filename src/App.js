@@ -14,8 +14,9 @@ import Home from "../src/pages/home/Home"
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 //Private pages
-import PrivateHeader from"../src/components/private/privateHeader/PrivateHeader"
+import PrivateHeader from "../src/components/private/privateHeader/PrivateHeader"
 import Account from "./pages/privatePages/Account"
+import CoursesCategories from './pages/privatePages/CoursesCategories/CoursesCategories';
 
 
 function App() {
@@ -34,6 +35,15 @@ function App() {
               <ProtectedRoute>
                 <PrivateHeader />
                 <Account />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path='/seznamkurzu'
+            element={
+              <ProtectedRoute>
+                <PrivateHeader />
+                <CoursesCategories />
               </ProtectedRoute>
             }
           />

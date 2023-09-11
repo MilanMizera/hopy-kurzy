@@ -1,6 +1,7 @@
 import "./privateHeader.css"
 import PrivateOffCanvas from "../privateOffCanvas/PrivateAccSettings"
 import PrivateAuthDetails from "../privateAuthDetails/PrivateAuthDetails"
+import { Link } from "react-router-dom";
 //bootstrap
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -30,8 +31,8 @@ function PrivateHeader() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-center flex-grow-1 pe-3">
-                  <Nav.Link id="private-header-nav-link" href="#action1">Seznam kurzů</Nav.Link>
-                  <Nav.Link id="private-header-nav-link" href="#action2">Moje kurzy</Nav.Link>
+                  <Link to="/seznamkurzu" id="private-header-nav-link" href="#action1">Seznam kurzů</Link>
+                  <Link id="private-header-nav-link" href="#action2">Moje kurzy</Link>
                 </Nav>
                 <PrivateAuthDetails></PrivateAuthDetails>
                 <PrivateOffCanvas></PrivateOffCanvas>

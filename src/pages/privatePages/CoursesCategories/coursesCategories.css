@@ -42,3 +42,61 @@ margin-top: 50px;
 
 }
 
+
+
+
+
+.courses-info-wrapper {
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 170px;
+  margin-left: 5px;
+  border-top: 1px solid rgb(214, 214, 214);
+  padding-top: 20px;
+
+}
+
+.courses-info-icon {
+
+  font-size: 20px;
+  color: rgb(141, 141, 14);
+  margin-right: 5px;
+
+}
+
+.courses-info-paragraf {
+
+  font-size: 15px;
+
+}
+
+.lasts-courses-heading {
+
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+.courses-info-bold {
+
+  font-weight: bolder;
+
+}
+
+.card-text {
+
+  margin-bottom: 20px;
+
+}
+
+#lasts-courses-img {
+
+  height: 270px;
+  margin-top: 20px;
+
+
+}
+

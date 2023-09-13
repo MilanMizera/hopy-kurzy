@@ -232,7 +232,7 @@ popis 15px*/
 
 }
 
-.courses-info-wrapper {
+.private-courses-info-wrapper {
 
     display: flex;
     flex-direction: column;
@@ -245,7 +245,7 @@ popis 15px*/
 
 }
 
-.courses-info-icon {
+.private-courses-info-icon {
 
     font-size: 20px;
     color: rgb(141, 141, 14);
@@ -253,32 +253,32 @@ popis 15px*/
 
 }
 
-.courses-info-paragraf {
+.private-courses-info-paragraf {
 
     font-size: 15px;
 
 }
 
-.lasts-courses-heading {
+.private-lasts-courses-heading {
 
     font-size: 20px;
     margin-top: 20px;
 
 }
 
-.courses-info-bold {
+.private-courses-info-bold {
 
     font-weight: bolder;
 
 }
 
-.card-text {
+.private-card-text {
 
     margin-bottom: 20px;
 
 }
 
-#lasts-courses-img {
+#private-lasts-courses-img {
 
     height: 270px;
     margin-top: 20px;

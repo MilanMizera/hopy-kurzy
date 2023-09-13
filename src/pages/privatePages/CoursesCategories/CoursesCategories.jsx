@@ -30,47 +30,78 @@ const CoursesCategories = () => {
 
     return (<div>
 
-        <div className="private-wrapper-courses-category">
 
 
+        <div className="row-p-courses-categories">
 
-            <MDBRow className='row-cols-1 row-cols-md-3 g-4 justify-content-start' id="private-courses-category">
-                <PrivateSideBar />
+            <PrivateSideBar></PrivateSideBar>
+            <div className="p-courses-categories-all-without-sidebar">
+                <p className="p-last-courses-title">Všechny kurzy</p>
+                <div class="row row-cols-1 row-cols-md-4 g-4 " id="row-p-courses-categories">
 
-                {courses.map((oneCourse) => {
+                    <div class="col" id="col-p-courses-categories">
+                        <div class="card h-100">
+                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" class="card-img-top" alt="Skyscrapers" />
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="col-p-courses-categories">
+                        <div class="card h-100">
+                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp" class="card-img-top" alt="Los Angeles Skyscrapers" />
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="col-p-courses-categories">
+                        <div class="card h-100">
+                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Palm Springs Road" />
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This card has even longer content than the first to show
+                                    that equal height action.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
 
-                    /*destructuring zachytí se tak data z pole do proměnných musí být definovaný ve stejným pořadí jako vlastnosti u objektu */
-                    const { courseName, category, image, lectoreName, time, homework, id } = oneCourse
 
-                    return (
-                        
-                            <MDBCol id="private-col-lasts-courses" key={id}>
-                                <MDBCard id="private-lasts-courses-card">
-                                    <MDBCardImage id="private-lasts-courses-img"
-                                        src={image}
-                                        alt='...'
-                                        position='top'
-                                    />
-                                    <MDBCardBody>
-                                        <MDBCardTitle className="private-lasts-courses-heading">{courseName}</MDBCardTitle>
-                                        <MDBCardText>
-                                            This is a longer card with supporting text below as a natural lead-in to additional content.
-                                            This content is a little bit longer.
-                                        </MDBCardText>
-                                        <div className="private-courses-info-wrapper">
-                                            <p className="private-courses-info-paragraf"> <MdOutlineDriveFileRenameOutline className="private-courses-info-icon"></MdOutlineDriveFileRenameOutline><b className="private-courses-info-bold">jméno lektora:</b>{lectoreName}</p>
-                                            <p className="private-courses-info-paragraf"> <TbCategory2 className="private-courses-info-icon"></TbCategory2><b className="private-courses-info-bold">Kategorie:</b> {category}</p>
-                                            <p className="private-courses-info-paragraf">  <MdOutlineAccessTime className="private-courses-info-icon"></MdOutlineAccessTime><b className="private-courses-info-bold">Délka kurzu:</b> {time}</p>
-                                            <p className="private-courses-info-paragraf"> <ImFileText2 className="private-courses-info-icon"></ImFileText2> <b className="private-courses-info-bold">Úkoly k vypracování:</b> {homework}</p>
-                                        </div>
-                                    </MDBCardBody>
-                                </MDBCard>
-                            </MDBCol>
-                      
-                    )
-                })}
-
-            </MDBRow>
+                    <div class="col" id="col-p-courses-categories">
+                        <div class="card h-100">
+                            <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Palm Springs Road" />
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This card has even longer content than the first to show
+                                    that equal height action.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

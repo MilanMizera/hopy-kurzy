@@ -1,9 +1,10 @@
-.wrapper-courses-category {
+
+
+
+.private-wrapper-courses-category {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-
 }
 
 @media (min-width: 992px) {
@@ -48,4 +49,96 @@
   overflow-x: hidden;
   overflow-y: auto;
   /* Scrollable contents if viewport is shorter than content. */
+}
+
+
+#private-col-lasts-courses {
+
+
+ 
+  width: 20%;
+  height: 500px;
+  margin-right: 10px;
+  cursor: pointer;
+
+
+}
+
+#private-col-lasts-courses:hover {
+
+  border: 1px solid yellow;
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+
+.private-lasts-courses-section {
+
+  position: relative;
+  bottom: 200px;
+
+}
+
+.private-lasts-courses-title {
+
+
+  font-size: 35px;
+  color: aliceblue;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+.private-courses-info-wrapper {
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 170px;
+  margin-left: 5px;
+  border-top: 1px solid rgb(214, 214, 214);
+  padding-top: 20px;
+
+}
+
+.private-courses-info-icon {
+
+  font-size: 20px;
+  color: rgb(141, 141, 14);
+  margin-right: 5px;
+
+}
+
+.private-courses-info-paragraf {
+
+  font-size: 15px;
+
+}
+
+.private-lasts-courses-heading {
+
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+.private-courses-info-bold {
+
+  font-weight: bolder;
+
+}
+
+.card-text {
+
+  margin-bottom: 20px;
+
+}
+
+#private-lasts-courses-img {
+
+  height: 270px;
+  margin-top: 20px;
+
+
 }

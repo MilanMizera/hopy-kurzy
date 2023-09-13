@@ -5,7 +5,7 @@ import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 const PrivateSideBar = () => {
 
   return (
-    <div>
+   
       <Sidebar>
         <h6 className="sidebar-title">Seznam kurzů</h6>
         <hr className="sidebar-hr-line"></hr>
@@ -37,7 +37,7 @@ const PrivateSideBar = () => {
           </SubMenu>
         </Menu>
       </Sidebar>
-    </div>
+   
 
   )
 }

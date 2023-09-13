@@ -1,5 +1,5 @@
 import "./privateHeader.css"
-import PrivateOffCanvas from "../privateOffCanvas/PrivateAccSettings"
+import PrivateOffCanvas from "../privateAccSettings/PrivateAccSettings"
 import PrivateAuthDetails from "../privateAuthDetails/PrivateAuthDetails"
 import { Link } from "react-router-dom";
 //bootstrap

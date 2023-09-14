@@ -18,9 +18,6 @@ const CoursesCategories = () => {
 
     const handleOnlyJavascript = () => {
 
-
-     
-
         const onlyJavascript = allCourses.filter((oneCourse) => {
 
             return oneCourse.tag === "javascript"

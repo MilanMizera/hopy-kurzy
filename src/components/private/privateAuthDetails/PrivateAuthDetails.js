@@ -11,7 +11,7 @@ const PrivateAuthDetails = () => {
         try {
             await logout();
             navigate('/');
-            console.log('You are logged out')
+            
         } catch (e) {
             console.log(e.message);
         }
@@ -20,7 +20,7 @@ const PrivateAuthDetails = () => {
     return (
         <div className="row-auth-details">
 
-            <p className="private-auth-details-paragraf">Uživatel: {user && user.email}</p>
+            { UserAuth ? <p className="private-auth-details-paragraf">Uživatel: {user && user.email}</p> : <p>Nejste přihlášený</p> }
 
             <button className="private-auth-details-button" onClick={handleLogout} >
                 Odhlásit se

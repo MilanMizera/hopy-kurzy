@@ -20,3 +20,19 @@ export const succesRegistrationNotify = () => {
     });
 
 }
+
+
+export const passwordOrEmailIsNotValidNotify = () => {
+
+    toast.error('Vaše heslo nebo emailová adresa je neplatná', {
+        position: "top-center",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+    });
+
+}

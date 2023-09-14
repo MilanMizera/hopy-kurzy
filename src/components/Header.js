@@ -2,12 +2,14 @@ import "./header.css"
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+
+
 const Header = () => {
 
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
 
-
+  
   const navToggle = () => {
     if (active === "nav__menu") {
       setActive("nav__menu nav__active");
@@ -52,6 +54,7 @@ const Header = () => {
 
        
           <Link className="login-btn-background" to="/prihlaseni">Přihlásit se</Link>
+          
         
 
       </ul>

@@ -5,7 +5,10 @@ import "./login.css"
 //ikonky
 import { FcGoogle } from "react-icons/fc";
 import { BsFacebook } from "react-icons/bs";
-
+//automatické zprávy (flashmessage)
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
+import { passwordOrEmailIsNotValidNotify } from "../../../data/notifications"
 
 const Signin = () => {
     const [email, setEmail] = useState('');
@@ -23,11 +26,28 @@ const Signin = () => {
         } catch (e) {
             setError(e.message)
             console.log(e.message)
+
         }
+        passwordOrEmailIsNotValidNotify()
+
     };
 
     return (
         <div className="sign-in-section">
+
+            <ToastContainer
+                position="top-right"
+                autoClose={2000}
+                limit={2}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="light"
+            />
 
             <div className="sign-in-form-wrapper">
                 <form className="sign-in-form" onSubmit={handleSubmit}>

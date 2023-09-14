@@ -8,9 +8,9 @@ function PrivateAccSettings() {
   return (
     <div className='wrapper-private-acc-settings'>
       <DropdownButton id="dropdown-basic-button" title="Nastavení účtu">
-        <Dropdown.Item href="#/action-1">Změna hesla</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Osovní údaje</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Platby</Dropdown.Item>
+        <Dropdown.Item className='p-acc-settings-item' href="#/action-1">Změna hesla</Dropdown.Item>
+        <Dropdown.Item className='p-acc-settings-item'>Osobní údaje</Dropdown.Item>
+        <Dropdown.Item className='p-acc-settings-item'>Platby</Dropdown.Item>
       </DropdownButton>
     </div>
   );

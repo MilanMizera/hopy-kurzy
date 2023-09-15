@@ -15,9 +15,9 @@ function PrivateHeader() {
   return (
     <>
       {['xxl'].map((expand) => (
-        <Navbar id="private-header-background"  key={expand} expand={expand} className="bg-body-tertiary mb-3">
+        <Navbar id="private-header-background" key={expand} expand={expand} className="bg-body-tertiary mb-3">
           <Container id="container-private-header" >
-            <Navbar.Brand  id="private-header-brand"href="#">HOPY-KURZY</Navbar.Brand>
+            <Navbar.Brand id="private-header-brand" href="#">HOPY-KURZY</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

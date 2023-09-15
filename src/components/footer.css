@@ -47,7 +47,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 10px !important;
+    padding: 5px !important;
     border:none !important;
     outline: none !important;
     vertical-align: middle;
@@ -55,6 +55,8 @@
     background-color: white;
     color: black;
     border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
 
 }
 

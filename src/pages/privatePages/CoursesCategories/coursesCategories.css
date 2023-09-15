@@ -1,3 +1,11 @@
+.all-wrapper-courses-categories {
+
+  height: 100%;
+
+}
+
+
+
 .p-courses-categories-all-without-sidebar {
 
   display: flex;
@@ -12,13 +20,14 @@
 
   display: flex;
 
+
 }
 
 #col-p-courses-categories {
 
   width: auto;
   height: auto;
-  height: 500px;
+  height: 550px;
   cursor: pointer;
   padding: 0px !important;
   margin-left: 25px;
@@ -35,7 +44,7 @@
 
 #col-p-courses-categories:hover {
 
-  border: 2px solid yellow;
+  border: 1px solid rgb(217, 217, 217);
 
 }
 
@@ -67,7 +76,8 @@
 
 }
 
-.courses-info-wrapper {
+
+.private-courses-info-wrapper {
 
   display: flex;
   flex-direction: column;
@@ -76,7 +86,8 @@
   height: 170px;
   margin-left: 5px;
   border-top: 1px solid rgb(214, 214, 214);
-  padding-top: 20px;
+  padding-top: 30px;
+
 
 }
 
@@ -122,7 +133,70 @@
 
 .private-courses-categories-space {
 
-margin-bottom: 100px;
+  margin-bottom: 100px;
+
+}
+
+.row-for-buttons-private-courses-categories {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 10px;
+
+}
+
+.col-1-for-buttons-private-courses-categories {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding-bottom: 20px;
+
+
+}
+
+.courses-categories-buy-button {
+
+
+  background-color: rgba(255, 249, 87, 0.558);
+  color: black;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid rgb(211, 211, 211);
+
+}
+
+.courses-categories-view-button {
+
+
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid rgb(224, 224, 224);
+
+}
+
+#courses-categories-card-body {
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+}
+
+#courses-categories {
+
+  padding-top: 30px;
+
 
 }
 

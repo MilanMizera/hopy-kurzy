@@ -232,7 +232,7 @@ popis 15px*/
 
 }
 
-.private-courses-info-wrapper {
+.courses-info-wrapper {
 
     display: flex;
     flex-direction: column;
@@ -242,8 +242,8 @@ popis 15px*/
     margin-left: 5px;
     border-top: 1px solid rgb(214, 214, 214);
     padding-top: 20px;
-
-}
+  
+  }
 
 .private-courses-info-icon {
 

@@ -31,8 +31,8 @@ function PrivateHeader() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-center flex-grow-1 pe-3">
-                  <Link to="/seznamkurzu" id="private-header-nav-link" href="#action1">Seznam kurzů</Link>
-                  <Link id="private-header-nav-link" href="#action2">Moje kurzy</Link>
+                  <Link to="/seznamkurzu" id="private-header-nav-link" >Seznam kurzů</Link>
+                  <Link  to="/mojekurzy" id="private-header-nav-link" >Moje kurzy</Link>
                 </Nav>
                 <PrivateAuthDetails></PrivateAuthDetails>
                 <PrivateOffCanvas></PrivateOffCanvas>

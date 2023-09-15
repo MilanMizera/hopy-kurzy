@@ -1,0 +1,15 @@
+.section-my-courses {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.my-courses-user-without-course-img {
+
+width: 500px;
+height: auto;
+
+
+}

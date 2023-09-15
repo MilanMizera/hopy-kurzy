@@ -49,7 +49,7 @@ const CoursesCategories = () => {
     const handleAllCourses = () => {
 
         setCourses(allCourses)
-       setTitle("Všechny kurzy")
+        setTitle("Všechny kurzy")
     }
 
 
@@ -86,18 +86,13 @@ const CoursesCategories = () => {
                                     </div>
                                 </div>
                             </div>
-
-
-
-
                         )
-
-
 
                     })}
                 </div>
             </div>
         </div>
+        <div className="private-courses-categories-space"></div>
     </div>
 
     )

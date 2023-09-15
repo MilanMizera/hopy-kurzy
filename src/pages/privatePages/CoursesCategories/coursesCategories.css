@@ -120,6 +120,12 @@
 
 }
 
+.private-courses-categories-space {
+
+margin-bottom: 100px;
+
+}
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;

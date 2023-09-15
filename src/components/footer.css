@@ -1,205 +1,138 @@
-.footer-logo {
+#section-footer {
 
-    width: 200px;
-    cursor: pointer;
-
-
+    padding-top: 60px;
+    background: rgb(0, 33, 65) !important;
 }
 
+#row-footer-links {
 
-.footer-section {
-
-    height: 250px;
-    background-color: rgb(0, 33, 65);
-    margin-top: 100px;
-
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.footer-row {
+#wrapper-footer-down {
 
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
-    height: 250px;
-
-
-}
-
-.cols-footer-wrapper {
-
-    display: flex;
-    width: 600px;
-
-}
-
-.col-items-1 {
-
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 200px;
-
 
 }
 
-.col-items-2 {
+.col1-footer-copyright {
 
-
+    width: 50%;
     display: flex;
-    flex-direction: column;
+    justify-content: end;
     align-items: center;
-    justify-content: center;
-    width: 200px;
+    margin-right: 50px;
 
 }
 
-.col-footer-brand {
+.col2-footer-copyright {
+
+    width: 50%;
     display: flex;
     justify-content: start;
-    width: 30%;
-
-}
-
-.footer-item {
-
-    margin-top: 20px;
-    color: rgb(175, 175, 175);
-}
-
-.footer-item-n {
-
-    color: rgb(175, 175, 175);
+    align-items: center;
+    
 
 
 }
 
+#footer-email-input {
 
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px !important;
+    border:none !important;
+    outline: none !important;
+    vertical-align: middle;
+    box-shadow: 0px 0px 23px -7px rgba(255,234,0,1);
+    background-color: white;
+    color: black;
+    border-radius: 20px;
 
-.footer-item:hover,
-.footer-item-n:hover {
+}
 
-    color: white;
-    transition: 3s initial;
+#footer-subscribe-button {
+
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+#col-footer-subscribe-button {
+
+    display: flex;
+    align-items: center;
 
 
 }
 
-.item-title-1,
-.item-title-2 {
+#footer-subscribe-paragraf {
 
 
-    color: aliceblue;
-    margin-bottom: 10px;
+    font-size: 13px;
+    color: rgb(240, 243, 255);
     text-decoration: underline;
 
+}
+
+#footer-li {
+
+text-align: start;
+font-size: 15px;
+margin-top: 10px;
+
+
 
 }
 
-.footer-copyright {
+#footer-item-link {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(0, 22, 44);
-    color: aliceblue;
-    height: 80px;
+
+font-size: 18px;
+
 
 }
 
-.copyright-section {
+#footer-socials-icons {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 70px;
-    background-color: rgb(0, 33, 65);
-    padding-bottom: 50px;
-    padding-top: 50px;
-    border-top: 1px solid rgb(56, 56, 56);
+color: rgb(192, 192, 4);
+font-size: 11px;
+
+
+
+}
+
+#section-footer-socials-icons {
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin:0px !important;
+
+}
+
+.paragraf-col2-footer-copyright {
+
+margin: 0px;
+margin-right: 10px;
+font-size: 16px;
+
 
 }
 
 .footer-text {
+margin: 0px;
+font-size: 16px;
 
-    color: aliceblue;
-}
-
-
-
-
-
-
-/*footer social icons section*/
-
-.footer-socials-section {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.col-social-text {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    width: 50%;
-
-
-}
-
-.col-social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin-left: 50px;
-
-}
-
-.social-text {
-
-    color: aliceblue;
-    margin-right: 20px;
-
-
-}
-
-.social-wrapper {
-
-    width: 50%;
-
-}
-
-.social-icon {
-
-    margin-right: 20px;
-    font-size: 40px;
-    color: antiquewhite;
-    background-color: black;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.love-text {
-
-    display: flex;
-    justify-content: end;
-    color: aliceblue;
-    width: 500px;
-
-
-
-
-}
-
-.hearth-icon {
-
-    margin: 0px 5px
 }

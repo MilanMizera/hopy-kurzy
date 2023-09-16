@@ -9,7 +9,7 @@ const Header = () => {
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
 
-  
+
   const navToggle = () => {
     if (active === "nav__menu") {
       setActive("nav__menu nav__active");
@@ -29,13 +29,13 @@ const Header = () => {
 
       <ul className={active}>
         <li className="nav__item">
-          <a to="welcome-scoll"  className="nav__link">
+          <a to="welcome-scoll" className="nav__link">
             Úvod
           </a>
         </li>
 
         <li className="nav__item">
-          <a to="with-i-work-scoll"  className="nav__link">
+          <a to="with-i-work-scoll" className="nav__link">
             Seznam kurzů
           </a>
         </li>
@@ -47,15 +47,15 @@ const Header = () => {
         </li>
 
         <li className="nav__item">
-          <a to="form-scroll"  className="nav__link">
+          <a to="form-scroll" className="nav__link">
             Kontakt
           </a>
         </li>
 
-       
-          <Link className="login-btn-background" to="/prihlaseni">Přihlásit se</Link>
-          
-        
+
+        <Link className="login-btn-background" to="/prihlaseni">Přihlásit se</Link>
+
+
 
       </ul>
 

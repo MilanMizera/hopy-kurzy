@@ -36,7 +36,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    
+
 
 
 }
@@ -48,10 +48,10 @@
     align-items: center;
     justify-content: center;
     padding: 5px !important;
-    border:none !important;
+    border: none !important;
     outline: none !important;
     vertical-align: middle;
-    box-shadow: 0px 0px 23px -7px rgba(255,234,0,1);
+    box-shadow: 0px 0px 23px -7px rgba(255, 234, 0, 1);
     background-color: white;
     color: black;
     border-radius: 20px;
@@ -90,9 +90,9 @@
 
 #footer-li {
 
-text-align: start;
-font-size: 15px;
-margin-top: 10px;
+    text-align: start;
+    font-size: 15px;
+    margin-top: 10px;
 
 
 
@@ -101,15 +101,15 @@ margin-top: 10px;
 #footer-item-link {
 
 
-font-size: 18px;
+    font-size: 18px;
 
 
 }
 
 #footer-socials-icons {
 
-color: rgb(192, 192, 4);
-font-size: 11px;
+    color: rgb(192, 192, 4);
+    font-size: 11px;
 
 
 
@@ -117,24 +117,24 @@ font-size: 11px;
 
 #section-footer-socials-icons {
 
-display: flex;
-justify-content: center;
-align-items: center;
-margin:0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px !important;
 
 }
 
 .paragraf-col2-footer-copyright {
 
-margin: 0px;
-margin-right: 10px;
-font-size: 16px;
+    margin: 0px;
+    margin-right: 10px;
+    font-size: 16px;
 
 
 }
 
 .footer-text {
-margin: 0px;
-font-size: 16px;
+    margin: 0px;
+    font-size: 16px;
 
 }

@@ -52,9 +52,11 @@ const Signin = () => {
             <div className="sign-in-form-wrapper">
                 <form className="sign-in-form" onSubmit={handleSubmit}>
                     <h1 className="sign-in-title">Přihlášení</h1>
+
                     <input className="sign-in-input" onChange={(e) => setEmail(e.target.value)} type="email" placeholder="E-mail" value={email}></input>
                     <input className="sign-in-input" onChange={(e) => setPassword(e.target.value)} type="password" placeholder="Heslo" value={password}></input>
                     <input className="sign-in-button" type="submit" value="Přihlásit se" ></input>
+                    <Link to="/resethesla" className='login-forgotten-password-paragraf'>Zapomněli jste heslo ?</Link>
                     <div className="three-side-sign-in-wrapper">
                         <p className="sign-in-icons-text">Přihlásit se pomocí:</p>
                         <div className="sign-in-icons-wrapper">
@@ -65,10 +67,6 @@ const Signin = () => {
                     </div>
                 </form>
             </div>
-
-
-
-
         </div>
     );
 };

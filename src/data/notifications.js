@@ -36,3 +36,20 @@ export const passwordOrEmailIsNotValidNotify = () => {
     });
 
 }
+
+// Resetování hesla
+
+export const succesResetPasswordNotify = () => {
+
+    toast.success('Na váš email byl úspěšně odeslán odkaz pro resetování hesla', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+    });
+
+}

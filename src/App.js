@@ -13,6 +13,7 @@ import Signup from './pages/Auth/register/Register';
 import Home from "../src/pages/home/Home"
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import ForgotPassword from './pages/Auth/forgotPassword/ForgotPassword';
 //Private pages
 import PrivateHeader from "../src/components/private/privateHeader/PrivateHeader"
 import Account from "./pages/privatePages/Account"
@@ -30,6 +31,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/registrace' element={<Signup />} />
           <Route path='/prihlaseni' element={<Signin />} />
+          <Route path='/resethesla' element={<ForgotPassword />} />
           <Route
             path='/account'
             element={

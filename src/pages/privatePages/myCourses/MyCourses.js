@@ -4,17 +4,20 @@ import { Link } from "react-router-dom"
 
 const MyCourses = () => {
 
-
-
     return (
 
         <div className="section-my-courses">
 
             <img className="my-courses-user-without-course-img" src={teacherMyCourses}></img>
 
-            <p className="my-courses-paragraf">Vidím že zatím nemáte zakoupené žádné kurzy...</p>
-            <Link className="my-courses-button">Prohlédnout si kurzy</Link>
 
+            <div className="wrapper-my-courses">
+
+            <p className="my-courses-paragraf">Vidím že zatím nemáte zakoupené žádné kurzy...</p>
+            <Link to="/seznamkurzu" className="my-courses-button">Prohlédnout si kurzy</Link>
+
+            </div>
+           
         </div>
 
     )

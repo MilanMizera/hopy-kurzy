@@ -163,19 +163,19 @@
 .courses-categories-buy-button {
 
 
-  background-color: rgba(255, 249, 87, 0.558);
+  background-color: yellow;
   color: black;
   padding: 5px 20px;
   border-radius: 10px;
   font-size: 15px;
-  border: 1px solid rgb(211, 211, 211);
+  border: 1px solid rgb(183, 183, 183);
 
 }
 
 .courses-categories-view-button {
 
 
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(84, 164, 255);
   color: black;
   padding: 5px 20px;
   border-radius: 10px;

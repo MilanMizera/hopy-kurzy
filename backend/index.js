@@ -4,21 +4,21 @@ const port = 5000
 const app = express()
 
 
-app.get("/api",  (req,res) => {
+app.get("/api", (req, res) => {
 
 
-const obj =  {
+    const obj = {
 
-name:"Milan",
-surname:"Mizera",
+        name: "Milan",
+        surname: "Mizera",
 
-}
+    }
 
-res.send(obj)
+    res.send(obj)
 
 })
 
 
 
 
-app.listen(port, ()=> console.log("server běží na portu " + port))
+app.listen(port, () => console.log("server běží na portu " + port))

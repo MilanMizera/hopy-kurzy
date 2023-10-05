@@ -1,0 +1,49 @@
+.wrapper-user-info-settings {
+
+display: flex;
+justify-content: center;
+align-items: start;
+height: 600px;
+padding-top: 50px;
+
+}
+
+.form-user-info-settings {
+
+width: 60%;
+
+}
+
+#btn-user-info-settings {
+
+padding: 10px 0px;
+width: 10%;
+font-size: 12px;
+
+
+}
+
+#wrapper-btn-user-info-settings {
+
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+
+}
+
+#wrapper-input-user-info-settings-49 {
+
+
+width: 49%;
+padding-top: 8px ;
+
+
+}
+
+#formGridAddress2, #formGridAddress1, #formGridEmail, #formGridPassword, #formGridCity, #formGridZip, #formGridState {
+
+font-size: 16px;
+
+
+}

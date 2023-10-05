@@ -10,6 +10,7 @@ function PrivateAccSettings() {
     <div className='wrapper-private-acc-settings'>
       <DropdownButton id="dropdown-basic-button" title="Nastavení účtu">
         <Dropdown.Item className='p-acc-settings-item' href="#/action-1">Změna hesla</Dropdown.Item>
+        <Dropdown.Item className='p-acc-settings-item' href="#/action-1">Změna Emailu</Dropdown.Item>
         <Dropdown.Item className='p-acc-settings-item'><Link to="/mojeudaje"className='p-acc-settings-item'>Osobní údaje</Link></Dropdown.Item>
         <Dropdown.Item className='p-acc-settings-item'>Platby</Dropdown.Item>
       </DropdownButton>

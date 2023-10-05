@@ -19,9 +19,13 @@ import PrivateHeader from "../src/components/private/privateHeader/PrivateHeader
 import Account from "./pages/privatePages/Account"
 import CoursesCategories from './pages/privatePages/CoursesCategories/CoursesCategories';
 import MyCourses from './pages/privatePages/myCourses/MyCourses';
+import UserInfoSettings from './pages/privatePages/userInfoSettings/UserInfoSettings';
 
 
 function App() {
+
+
+
   return (
     <div>
 
@@ -55,7 +59,16 @@ function App() {
             element={
               <ProtectedRoute>
                 <PrivateHeader />
-                <MyCourses/>
+                <MyCourses />
+              </ProtectedRoute>
+            }
+          />
+           <Route
+            path='/mojeudaje'
+            element={
+              <ProtectedRoute>
+                <PrivateHeader />
+                <UserInfoSettings />
               </ProtectedRoute>
             }
           />

@@ -12,7 +12,7 @@ const ShowHeader = ({ children }) => {
 
   useEffect(() => {
 
-    if (location.pathname === "/account" || location.pathname === "/seznamkurzu" || location.pathname === "/mojekurzy" )   {
+    if (location.pathname === "/account" || location.pathname === "/seznamkurzu" || location.pathname === "/mojekurzy" || location.pathname === "/mojeudaje" )   {
 
       setShowHeader(false)
 

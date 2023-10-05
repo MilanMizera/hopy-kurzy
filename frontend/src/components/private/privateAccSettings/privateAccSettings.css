@@ -3,6 +3,8 @@
 display: flex;
 align-items: center;
 justify-content: center;
+margin-left: 50px;
+
 
 
 }
@@ -10,6 +12,15 @@ justify-content: center;
 .p-acc-settings-item {
 
 font-size: 15px;
+color: black;
+
+
+}
+
+#dropdown-basic-button {
+
+
+font-size: 12px;
 
 
 }

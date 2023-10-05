@@ -29,6 +29,7 @@ a {
 font-size: 20px;
 cursor: pointer;
 
+
 }
 
 h6 {
@@ -42,5 +43,7 @@ textarea:focus, input:focus{
 
   border: 1px solid rgb(0, 0, 0);
 }
+
+
 
 
